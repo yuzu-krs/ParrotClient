@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.lang.Module"/>
+    <fullyQualifiedTypeName name="me.yuzu.parrot.module.ModuleManager"/>
+    <fullyQualifiedTypeName name="me.yuzu.parrot.Parrot"/>
+    <fullyQualifiedTypeName name="me.yuzu.parrot.module.Module"/>
+    <fullyQualifiedTypeName name="org.lwjgl.glfw.GLFW"/>
+</qualifiedTypeNameHistroy>

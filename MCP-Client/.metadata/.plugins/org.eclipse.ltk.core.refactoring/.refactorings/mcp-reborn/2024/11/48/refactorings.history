@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from プロジェクト &apos;mcp-reborn&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;mcp-reborn&apos;&#x0D;&#x0A;- オリジナル要素: &apos;me.yuzu.parrot.module.Category.java&apos;" description="要素を削除" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/=/org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY=/C:\\Users\\yuzut\\Desktop\\MCP-Reborn-1.21.1\\build\\natives=/&lt;me.yuzu.parrot.module{Category.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1732955380662" subPackages="false" version="1.0"/>
+</session>

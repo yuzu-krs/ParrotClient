@@ -1,0 +1,6 @@
+ENABLE_ANIMATIONS=false
+KEY_CONFIGURATION_ID=org.eclipse.ui.emacsAcceleratorConfiguration
+SHOW_MEMORY_MONITOR=true
+SHOW_TEXT_ON_PERSPECTIVE_BAR=false
+eclipse.preferences.version=1
+showIntro=false
