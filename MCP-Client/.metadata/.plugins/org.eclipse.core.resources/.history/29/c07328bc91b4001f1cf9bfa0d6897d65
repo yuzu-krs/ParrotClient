@@ -1,0 +1,5 @@
+package me.yuzu.parrot.util;
+
+public class RainbowUtil {
+
+}

@@ -1,0 +1,35 @@
+package me.yuzu.parrot.ui;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiGraphics;
+
+public class InGameOverlay {
+	
+	private final Minecraft mc=Minecraft.getInstance();
+	
+	public InGameOverlay() {}
+	
+	public void render(GuiGraphics guiGraphics) {
+		
+		if(mc.player!=null) {
+			RenderSystem.enableBlend();
+			RenderSystem.defaultBlendFunc();
+			
+			
+			
+			
+			
+			
+			
+			//Client Name
+			String clientName="Parrot | ";
+			
+			
+			
+		}
+
+	}
+
+}

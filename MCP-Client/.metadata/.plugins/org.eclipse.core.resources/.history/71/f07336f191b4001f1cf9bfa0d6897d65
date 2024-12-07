@@ -1,0 +1,13 @@
+package me.yuzu.parrot.util;
+
+public class RainbowUtil {
+
+	public static int getRainbowColor(float offset) {
+
+		float hue=(System.currentTimeMillis()%10000L/10000F+offset);
+		
+		
+		
+	}
+						
+}

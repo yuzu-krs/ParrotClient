@@ -1078,3 +1078,230 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.core.resources 2 10035 2024-12-07 19:11:53.940
 !MESSAGE ワークスペースは以前のセッションで変更が保存されずに終了しました； 変更を回復するためにワークスペースをリフレッシュ中です。
+!SESSION 2024-12-07 19:57:04.143 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 0 2024-12-07 19:58:22.494
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-07 19:58:22.494
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-12-07 19:58:22.818
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-12-07 19:58:22.818
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-07 20:03:56.842
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-07 20:30:28.636
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-12-07 20:38:10.652
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:01.981
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:01.982
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:01.984
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:01.985
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:01.987
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:01.988
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:01.991
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:01.991
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:02.008
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:02.008
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/getRainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.623
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.624
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.626
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.627
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.628
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.629
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.630
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.632
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.649
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY mergedoc.encoding 2 0 2024-12-07 20:52:08.649
+!MESSAGE リソース '/mcp-reborn/src/main/java/me/yuzu/parrot/util/RainbowColor.java' が存在しません。
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-12-07 21:09:39.064
+!MESSAGE ワークスペースの保存の問題
+
+!ENTRY org.eclipse.ui.ide 4 1 2024-12-07 21:09:39.073
+!MESSAGE ワークベンチの状態を保存中に問題が発生しました。
+!SUBENTRY 1 org.eclipse.ui.ide 4 1 2024-12-07 21:09:39.073
+!MESSAGE 内部エラー
+!STACK 0
+java.lang.BootstrapMethodError: bootstrap method initialization exception
+	at java.base/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:188)
+	at java.base/java.lang.invoke.CallSite.makeSite(CallSite.java:316)
+	at java.base/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274)
+	at java.base/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1728)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1239)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2492)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:553)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: java.lang.invoke.LambdaConversionException: Exception instantiating lambda object
+	at java.base/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:243)
+	at java.base/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341)
+	at java.base/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134)
+	... 8 more
+Caused by: java.lang.InternalError: java.lang.NoSuchMethodException: no such method: java.lang.invoke.MethodHandle.linkToSpecial(Object,Object,Object,Object,Object,Object,Object,Object,Object,Object,MemberName)void/invokeStatic
+	at java.base/java.lang.invoke.MethodHandleStatics.newInternalError(MethodHandleStatics.java:163)
+	at java.base/java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(DirectMethodHandle.java:264)
+	at java.base/java.lang.invoke.DirectMethodHandle.preparedLambdaForm(DirectMethodHandle.java:231)
+	at java.base/java.lang.invoke.DirectMethodHandle.preparedLambdaForm(DirectMethodHandle.java:216)
+	at java.base/java.lang.invoke.DirectMethodHandle.preparedLambdaForm(DirectMethodHandle.java:225)
+	at java.base/java.lang.invoke.DirectMethodHandle.makeAllocator(DirectMethodHandle.java:140)
+	at java.base/java.lang.invoke.DirectMethodHandle.make(DirectMethodHandle.java:131)
+	at java.base/java.lang.invoke.MethodHandles$Lookup.getDirectConstructorCommon(MethodHandles.java:4232)
+	at java.base/java.lang.invoke.MethodHandles$Lookup.getDirectConstructor(MethodHandles.java:4216)
+	at java.base/java.lang.invoke.MethodHandles$Lookup.findConstructor(MethodHandles.java:2838)
+	at java.base/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:232)
+	... 10 more
+Caused by: java.lang.NoSuchMethodException: no such method: java.lang.invoke.MethodHandle.linkToSpecial(Object,Object,Object,Object,Object,Object,Object,Object,Object,Object,MemberName)void/invokeStatic
+	at java.base/java.lang.invoke.MemberName.makeAccessException(MemberName.java:915)
+	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:994)
+	at java.base/java.lang.invoke.DirectMethodHandle.makePreparedLambdaForm(DirectMethodHandle.java:261)
+	... 19 more
+Caused by: java.lang.NoSuchMethodError: 'void java.lang.invoke.MethodHandle.linkToSpecial(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.invoke.MemberName)'
+	at java.base/java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+	at java.base/java.lang.invoke.MemberName$Factory.resolve(MemberName.java:962)
+	at java.base/java.lang.invoke.MemberName$Factory.resolveOrFail(MemberName.java:991)
+	... 20 more
+Caused by: java.lang.VirtualMachineError: Out of space in CodeCache for method handle intrinsic
+	... 23 more
+
+!ENTRY org.eclipse.wst.validation 4 0 2024-12-07 21:09:39.932
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: バンドル org.eclipse.wst.validation の org.eclipse.wst.validation.internal.plugin.ValidationPlugin.停止() での例外。
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:923)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1071)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:392)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:695)
+	at org.eclipse.osgi.container.Module.stop(Module.java:554)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2116)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1986)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:222)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:695)
+	at org.eclipse.osgi.container.Module.stop(Module.java:554)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.VirtualMachineError: Out of space in CodeCache for adapters
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.initializeValidator(ValidationRegistryReader.java:1220)
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.readExtension(ValidationRegistryReader.java:1309)
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.readRegistry(ValidationRegistryReader.java:1336)
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.<init>(ValidationRegistryReader.java:116)
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.<clinit>(ValidationRegistryReader.java:78)
+	at org.eclipse.wst.validation.internal.ConfigurationConstants.<clinit>(ConfigurationConstants.java:31)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.isMigrated(ConfigurationManager.java:227)
+	at org.eclipse.wst.validation.internal.EventManager.shutdown(EventManager.java:284)
+	at org.eclipse.wst.validation.internal.plugin.ValidationPlugin.stop(ValidationPlugin.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:903)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:895)
+	... 13 more
+Root exception:
+java.lang.VirtualMachineError: Out of space in CodeCache for adapters
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.initializeValidator(ValidationRegistryReader.java:1220)
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.readExtension(ValidationRegistryReader.java:1309)
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.readRegistry(ValidationRegistryReader.java:1336)
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.<init>(ValidationRegistryReader.java:116)
+	at org.eclipse.wst.validation.internal.ValidationRegistryReader.<clinit>(ValidationRegistryReader.java:78)
+	at org.eclipse.wst.validation.internal.ConfigurationConstants.<clinit>(ConfigurationConstants.java:31)
+	at org.eclipse.wst.validation.internal.ConfigurationManager.isMigrated(ConfigurationManager.java:227)
+	at org.eclipse.wst.validation.internal.EventManager.shutdown(EventManager.java:284)
+	at org.eclipse.wst.validation.internal.plugin.ValidationPlugin.stop(ValidationPlugin.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:903)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:895)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1071)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:392)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:695)
+	at org.eclipse.osgi.container.Module.stop(Module.java:554)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:2116)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1986)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:281)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:222)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:695)
+	at org.eclipse.osgi.container.Module.stop(Module.java:554)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:212)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:240)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-12-07 21:09:40.812
+!MESSAGE ワークスペースは、このセッションで変更が保存されずに終了します。

@@ -1,14 +1,20 @@
 package net.minecraft.client.gui;
 
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.List;
+
+import javax.annotation.Nullable;
+
+import org.joml.Matrix4fStack;
+
 import com.google.common.collect.Lists;
 import com.google.common.collect.Ordering;
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.systems.RenderSystem;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
-import javax.annotation.Nullable;
+
+import me.yuzu.parrot.Parrot;
 import net.minecraft.ChatFormatting;
 import net.minecraft.Util;
 import net.minecraft.client.AttackIndicatorStatus;
@@ -67,7 +73,6 @@ import net.minecraft.world.scores.PlayerTeam;
 import net.minecraft.world.scores.Scoreboard;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-import org.joml.Matrix4fStack;
 
 @OnlyIn(Dist.CLIENT)
 public class Gui {
@@ -508,6 +513,11 @@ public class Gui {
     }
 
     private void renderItemHotbar(GuiGraphics p_332738_, DeltaTracker p_342619_) {
+    	//Parrot
+    	Parrot.instance.onRender(p_332738_);
+    	
+    	
+    	
         Player player = this.getCameraPlayer();
         if (player != null) {
             ItemStack itemstack = player.getOffhandItem();

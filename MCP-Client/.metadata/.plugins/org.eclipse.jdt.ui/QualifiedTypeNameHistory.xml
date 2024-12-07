@@ -3,7 +3,10 @@
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.lang.Module"/>
     <fullyQualifiedTypeName name="me.yuzu.parrot.module.ModuleManager"/>
+    <fullyQualifiedTypeName name="org.lwjgl.glfw.GLFW"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+    <fullyQualifiedTypeName name="com.mojang.blaze3d.systems.RenderSystem"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="me.yuzu.parrot.Parrot"/>
     <fullyQualifiedTypeName name="me.yuzu.parrot.module.Module"/>
-    <fullyQualifiedTypeName name="org.lwjgl.glfw.GLFW"/>
 </qualifiedTypeNameHistroy>

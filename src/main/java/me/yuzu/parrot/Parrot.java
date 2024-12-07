@@ -2,6 +2,7 @@ package me.yuzu.parrot;
 
 import me.yuzu.parrot.module.KeyManager;
 import me.yuzu.parrot.module.ModuleManager;
+import me.yuzu.parrot.ui.InGameOverlay;
 import net.minecraft.client.gui.GuiGraphics;
 
 public class Parrot {
@@ -14,6 +15,7 @@ public class Parrot {
 	
 	public static ModuleManager modManager;
 	public static KeyManager keyManager;
+	public static InGameOverlay ingameoverlay;
 	
 	
 	
@@ -24,6 +26,7 @@ public class Parrot {
 	public static void startClient() {
 		modManager=new ModuleManager();
 		keyManager=new KeyManager();
+		ingameoverlay=new InGameOverlay();
 	}
 
 	
@@ -33,7 +36,7 @@ public class Parrot {
 	}
 	
 	public void onRender(GuiGraphics guiGraphics) {
-		
+		ingameoverlay.render(guiGraphics);
 	}
 	
 }

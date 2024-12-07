@@ -1,0 +1,13 @@
+package me.yuzu.parrot.ui;
+
+import net.minecraft.client.Minecraft;
+
+public class InGameOverlay {
+	
+	private final Minecraft mc=Minecraft.getInstance();
+	
+	public InGameOverlay() {}
+	
+	
+
+}

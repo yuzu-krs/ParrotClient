@@ -1,0 +1,67 @@
+package me.yuzu.parrot.ui;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiGraphics;
+
+public class InGameOverlay {
+	
+	private final Minecraft mc=Minecraft.getInstance();
+	
+	public InGameOverlay() {}
+	
+	public void render(GuiGraphics guiGraphics) {
+		
+		if(mc.player!=null) {
+			RenderSystem.enableBlend();
+			RenderSystem.defaultBlendFunc();
+			
+			
+			
+			
+			
+			
+			
+			//Client Name
+			String clientName="Parrot | ";
+			guiGraphics.drawString(mc.font, clientName, 10, 5,  0xA020F0);
+			
+			int clientNameWidth=mc.font.width(clientName);
+
+			//FPS 
+			int fps=mc.getFps();
+			String fpsText="FPS: "+fps;
+			guiGraphics.drawString(mc.font, fpsText, 10+clientNameWidth, 5,  0xA020F0);
+			
+			
+
+			int fpsTextWidth=mc.font.width(fpsText);
+			
+			int totalWidth=clientNameWidth+fpsTextWidth+5;
+			int totalHeight=mc.font.lineHeight+2;
+			
+			
+			
+			int x1=10;
+			int y1=5;
+			int x2=x1+totalWidth;
+			int y2=y1+totalHeight;
+			
+			guiGraphics.fill(x1-5,y1-3, x2, y2,0x99000000);
+			
+			
+			
+			RenderSystem.disableBlend();
+			
+			
+		}
+
+	}
+	
+	private void renderEnabledMods(GuiGraphics guiGraphics) {
+		
+	}
+	
+
+}

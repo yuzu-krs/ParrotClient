@@ -20,20 +20,12 @@ public class KeyManager {
 				if(!keysPressed[keyCode]) {
 					module.toggle();
 					keysPressed[keyCode]=true;
-					
-				}else {
-					keysPressed[keyCode]=false;
 				}
+					
+			}else if(GLFW.glfwGetKey(windowHandle, keyCode)==GLFW.GLFW_RELEASE) {
+					keysPressed[keyCode]=false;
 			}
 		}
-		
-		
-		
-		
 	}
-	
-	
-	
-	
-	
+
 }
